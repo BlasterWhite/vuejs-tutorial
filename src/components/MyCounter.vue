@@ -1,7 +1,7 @@
 <script setup>
-import {ref} from "vue";
+import { ref } from "vue";
 
-const emits = defineEmits(["increment"]);
+const emits = defineEmits(["update:modelValue"]);
 
 const props = defineProps({
   modelValue: {
