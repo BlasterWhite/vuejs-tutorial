@@ -10,9 +10,9 @@ const count = ref(0);
     <h1>Vue 3 Composition API</h1>
     <p>Count is: {{ count }}</p>
     <my-counter v-model="count" />
-    <p v-if="count < 10">⏬ 10</p>
-    <p v-else-if="count === 10">⏩ 10</p>
-    <p v-else-if="count > 10">⏫ 10</p>
+    <p v-if="count < 10">⏬ Less than 10</p>
+    <p v-else-if="count === 10">⏩ Equal 10</p>
+    <p v-else>⏫ More than 10</p>
   </div>
 </template>
 
